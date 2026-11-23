@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject4",
+  "source_kind": "public_dataset",
+  "scenario": "intentional_lying_down",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Sitting on the bed; removing the goggles; then sleeping | classes: Sitting[0.5 to 2.8]; Sleeping[2.9 to 7.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 4,
+    "category": "ADL",
+    "file": "16.mp4",
+    "time_of_recording": "Day (Lights On)",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "independent"
+  }
+}

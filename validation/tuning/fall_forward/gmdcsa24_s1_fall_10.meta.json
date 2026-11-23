@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject1",
+  "source_kind": "public_dataset",
+  "scenario": "fall_forward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Standing position to falling. Forward Fall. Full body (right eye) not visible | classes: Falling (FW)[0.7 to 4.0]; Standing[0.0 to 0.7]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 1,
+    "category": "Fall",
+    "file": "10.mp4",
+    "time_of_recording": "Day (Light On)",
+    "attire": "Full T-shirt & Trousers",
+    "tags": [
+      "partly_visible",
+      "right_side",
+      "day"
+    ],
+    "split": "tuning",
+    "direction": "FW"
+  },
+  "event_time_s": 0.7
+}

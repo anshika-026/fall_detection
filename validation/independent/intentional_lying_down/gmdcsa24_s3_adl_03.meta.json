@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "intentional_lying_down",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Getting up from the sleeping position from the bed; Putting a mask on the face; then walking | classes: Sitting[3.0 to 7.4]; Sleeping[0.0 to 1.0]; Standing[7.6 to 8.4]; Walking[8.5 to 9.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "ADL",
+    "file": "03.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full T-shirt & Trousers",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "independent"
+  }
+}

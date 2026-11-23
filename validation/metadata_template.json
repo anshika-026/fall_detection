@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "camera_id": "office-1",
+  "recording_start": "2026-12-01T10:15:00Z",
+  "recording_end": "2026-12-01T10:16:10Z",
+  "scenario": "fall_from_chair",
+  "expected_event": "fall",
+  "event_time_s": 31.5,
+  "event_time_tolerance_s": 2.0,
+  "expected_recovery": false,
+  "annotator": "AB",
+  "notes": "example only - not real data"
+}

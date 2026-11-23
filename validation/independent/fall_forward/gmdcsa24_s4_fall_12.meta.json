@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject4",
+  "source_kind": "public_dataset",
+  "scenario": "fall_forward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Falling (FW)to the floor from sitting on the bed | classes: Falling (FW)[1.5 to 4.0]; Sitting[0.0 to 1.3]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 4,
+    "category": "Fall",
+    "file": "12.mp4",
+    "time_of_recording": "Day (Lights On)",
+    "attire": "T-Shirt & Pant",
+    "tags": [
+      "bed",
+      "floor",
+      "day"
+    ],
+    "split": "independent",
+    "direction": "FW"
+  },
+  "event_time_s": 1.5
+}

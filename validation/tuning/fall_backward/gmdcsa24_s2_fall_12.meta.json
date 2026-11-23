@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "fall_backward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Drinking water from the water bottle then falling backwards | classes: Falling (BW)[6.9 to 12.0]; Drinking[3.5 to 5.3]; Standing[3.6 to 6.9]; Walking[0.0 to 3.6]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "Fall",
+    "file": "12.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full Shirt & Jeans",
+    "tags": [
+      "night"
+    ],
+    "split": "tuning",
+    "direction": "BW"
+  },
+  "event_time_s": 6.9
+}

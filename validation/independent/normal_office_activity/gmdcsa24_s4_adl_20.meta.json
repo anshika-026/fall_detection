@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject4",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Eating biscuits then picking up the water bottle from the floor and drinking the water from it after sitting on the bed; keeping the bottle on the floor | classes: Drinking[4.6 to 10.4]; Eating[16.2 to 17.0]; Sitting[2.8 to 17.0]; Standing[0.7 to 2.6]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 4,
+    "category": "ADL",
+    "file": "20.mp4",
+    "time_of_recording": "Day (Lights On)",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "bed",
+      "floor",
+      "day"
+    ],
+    "split": "independent"
+  }
+}

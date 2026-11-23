@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "fall_backward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Seeing outside the window then backward fall | classes: Falling (BW)[3.3 to 10.0]; Standing[0.0 to 3.1]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "Fall",
+    "file": "04.mp4",
+    "time_of_recording": "Day",
+    "attire": "T-Shirt & Pants",
+    "tags": [
+      "day"
+    ],
+    "split": "tuning",
+    "direction": "BW"
+  },
+  "event_time_s": 3.3
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_backward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Falling (backward) on the floor from the sitting position | classes: Falling (BW)[0.0 to 5.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "06.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full T-shirt & Trouser",
+    "tags": [
+      "floor",
+      "day"
+    ],
+    "split": "independent",
+    "direction": "BW"
+  },
+  "event_time_s": 0.0
+}

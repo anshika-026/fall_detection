@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_sideways",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Falling on the right side onto the floor from a standing position | classes: Falling (SW)[0.0 to 6.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "08.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full T-shirt & Trouser",
+    "tags": [
+      "right_side",
+      "floor",
+      "day"
+    ],
+    "split": "independent",
+    "direction": "SW"
+  },
+  "event_time_s": 0.0
+}

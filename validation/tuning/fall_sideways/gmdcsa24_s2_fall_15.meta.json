@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "fall_sideways",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Writing while sitting on the bed; then falling on the ground | classes: Falling (SW)[7.7 to 11.0]; Sitting[0.0 to 7.7]; Writing[0.0 to 4.6]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "Fall",
+    "file": "15.mp4",
+    "time_of_recording": "Day",
+    "attire": "T-Shirt & Pants 2",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "tuning",
+    "direction": "SW"
+  },
+  "event_time_s": 7.7
+}

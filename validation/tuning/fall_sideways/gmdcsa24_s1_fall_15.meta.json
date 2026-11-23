@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject1",
+  "source_kind": "public_dataset",
+  "scenario": "fall_sideways",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Sitting on the chair (side view) to right side fall | classes: Falling (SW)[1.8 to 6.0]; Sitting[0.0 to 2.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 1,
+    "category": "Fall",
+    "file": "15.mp4",
+    "time_of_recording": "Day (Light On)",
+    "attire": "T-shirt & Trousers",
+    "tags": [
+      "from_chair",
+      "right_side",
+      "day"
+    ],
+    "split": "tuning",
+    "direction": "SW"
+  },
+  "event_time_s": 1.8
+}

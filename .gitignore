@@ -1,0 +1,50 @@
+# Environment and secrets
+.env
+backend/.env
+
+# Runtime data (database, evidence clips/snapshots, logs)
+backend/data/
+backend/logs/
+
+# Model weights (download with backend/tools/fetch_models.py)
+backend/models/*.pt
+backend/models/*.pth
+backend/models/*.onnx
+
+# Third-party datasets: licensed for non-commercial academic use, never redistribute
+datasets/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# MediaMTX binaries and runtime files
+mediamtx/bin/
+mediamtx/*.log
+mediamtx/*.pid
+
+# Validation footage is personal data: never commit videos, caches or raw recordings (labels/metadata are fine)
+validation/recordings/*
+validation/cache/*
+validation/tuning/**/*.mkv
+validation/tuning/**/*.mp4
+validation/tuning/**/*.avi
+validation/tuning/**/*.mov
+validation/independent/**/*.mkv
+validation/independent/**/*.mp4
+validation/independent/**/*.avi
+validation/independent/**/*.mov
+!validation/**/.gitkeep
+
+# camera network details (host/ports) stay out of git
+validation/cameras_office.json
+# derived experiment data (scaled adult copies, their pose caches): regenerable, large
+validation/experiments/
+
+# logs (can contain session tokens and camera URLs)
+*.log

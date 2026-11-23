@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Picking the pen from the floor and putting it on the bed | classes: Walking[1.8 to 5.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "ADL",
+    "file": "19.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full T-shirt (different) & Trousers",
+    "tags": [
+      "bed",
+      "floor",
+      "night"
+    ],
+    "split": "independent"
+  }
+}

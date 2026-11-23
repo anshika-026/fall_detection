@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject4",
+  "source_kind": "public_dataset",
+  "scenario": "fall_forward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Walking then falling (forward) view 1 | classes: Falling (FW)[1.7 to 6.0]; Walking[0.0 to 1.7]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 4,
+    "category": "Fall",
+    "file": "03.mp4",
+    "time_of_recording": "Day (Lights Off)",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "lights_off"
+    ],
+    "split": "independent",
+    "direction": "FW"
+  },
+  "event_time_s": 1.7
+}

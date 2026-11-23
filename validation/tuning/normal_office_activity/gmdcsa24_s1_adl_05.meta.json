@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject1",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Coming to the bed and reading book in the sitting position. Front view of the subject. One leg folded | classes: Reading[6.0 to 10.0]; Sitting[3.0 to 10.0]; Walking[1.0 to 3.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 1,
+    "category": "ADL",
+    "file": "05.mp4",
+    "time_of_recording": "Day (Light On)",
+    "attire": "Full T-shirt & Trousers",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

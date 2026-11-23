@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "sitting_standing",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Opening the window curtain and the window | classes: Standing[0.0 to 12.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "ADL",
+    "file": "10.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full shirt & Trousers",
+    "tags": [
+      "day"
+    ],
+    "split": "independent"
+  }
+}

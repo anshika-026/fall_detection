@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "sitting_standing",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Picking up the mobile phone from the ground; placing it on the bed; and sitting on the bed | classes: Sitting[9.7 to 3.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "06.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_forward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Eating in standing position then falling forward | classes: Falling (FW)[4.7 to 8.0]; Eating[0.0 to 2.0]; Standing[0.0 to 4.6]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "11.mp4",
+    "time_of_recording": "Day",
+    "attire": "Kurta & Trouser",
+    "tags": [
+      "day"
+    ],
+    "split": "independent",
+    "direction": "FW"
+  },
+  "event_time_s": 4.7
+}

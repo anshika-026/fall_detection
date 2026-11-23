@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-11-19T11:22:33Z",
+  "user": "admin",
+  "results": [
+    {
+      "name": "Main Hall 1",
+      "host": "144.79.198.46:91",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 32.13 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 32.13
+    },
+    {
+      "name": "Main Hall 2",
+      "host": "144.79.198.46:90",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 13.42 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 13.42
+    },
+    {
+      "name": "Lift Gate",
+      "host": "144.79.198.46:92",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 11.81 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 11.81
+    },
+    {
+      "name": "Technical Section",
+      "host": "144.79.198.46:93",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 12.31 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 12.31
+    },
+    {
+      "name": "Lobby",
+      "host": "144.79.198.46:554",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 20.46 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 20.46
+    },
+    {
+      "name": "Entry",
+      "host": "144.79.198.46:94",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 10.59 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 10.59
+    },
+    {
+      "name": "Exit",
+      "host": "144.79.198.46:31",
+      "result": "WORKING",
+      "detail": "hevc 1920x1080 at 27.32 fps, frames decoded",
+      "protocol": "rtsps",
+      "codec": "hevc",
+      "size": "1920x1080",
+      "fps": 27.32
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Standing up from the ground and closing the curtain | classes: Standing[0.1 to 2.1]; Walking[2.1 to 5.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "10.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full Shirt & Paint",
+    "tags": [
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

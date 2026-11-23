@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_backward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Reading newspaper then falling Backward on the bed | classes: Falling (BW)[1.4 to 8.0]; Reading[0.0 to 1.1]; Sitting[0.0 to 1.4]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "17.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full T-shirt (different) & Trouser",
+    "tags": [
+      "bed",
+      "night"
+    ],
+    "split": "independent",
+    "direction": "BW"
+  },
+  "event_time_s": 1.4
+}

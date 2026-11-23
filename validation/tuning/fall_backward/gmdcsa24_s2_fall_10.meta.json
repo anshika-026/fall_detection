@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "fall_backward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Right side fall then backward | classes: Falling (BW)[2.0 to 4.0]; Falling (SW)[4.0 to 11.0]; Walking[0.0 to 1.8]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "Fall",
+    "file": "10.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full Shirt & Jeans",
+    "tags": [
+      "right_side",
+      "night"
+    ],
+    "split": "tuning",
+    "direction": "BW"
+  },
+  "event_time_s": 2.0
+}

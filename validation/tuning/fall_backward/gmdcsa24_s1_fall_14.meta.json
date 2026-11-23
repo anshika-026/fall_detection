@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject1",
+  "source_kind": "public_dataset",
+  "scenario": "fall_backward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Standing position to falling. Backward fall. Full body (both ankles) is not visible | classes: Falling (BW)[0.3 to 5.0]; Standing[0.0 to 0.2]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 1,
+    "category": "Fall",
+    "file": "14.mp4",
+    "time_of_recording": "Day (Light On)",
+    "attire": "T-shirt & Trousers",
+    "tags": [
+      "partly_visible",
+      "day"
+    ],
+    "split": "tuning",
+    "direction": "BW"
+  },
+  "event_time_s": 0.3
+}

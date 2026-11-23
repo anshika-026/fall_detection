@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Drinking while sitting on the bed | classes: Drinking[0.0 to 5.1]; Sitting[0.0 to 10.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "ADL",
+    "file": "21.mp4",
+    "time_of_recording": "Day",
+    "attire": "Kurta & Trousers",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "independent"
+  }
+}

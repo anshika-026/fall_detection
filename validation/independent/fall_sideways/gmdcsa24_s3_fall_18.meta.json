@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_sideways",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Sitting on the bed; then falling on the floor | classes: Falling (SW)[4.2 to 11.0]; Sitting[0.0 to 3.2]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "18.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full T-shirt (different) & Trouser",
+    "tags": [
+      "bed",
+      "floor",
+      "night"
+    ],
+    "split": "independent",
+    "direction": "SW"
+  },
+  "event_time_s": 4.2
+}

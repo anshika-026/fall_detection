@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Standing up from bed; walking; and checking the dress on the hanger, Standing[3.5 to 4; 6.8 to 10] | classes: Walking[4.1 to 6.8]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "17.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full Shirt & Jeans",
+    "tags": [
+      "bed",
+      "night"
+    ],
+    "split": "tuning"
+  }
+}

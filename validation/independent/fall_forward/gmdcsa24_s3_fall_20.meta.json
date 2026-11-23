@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_forward",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Walking then falling forward on the floor | classes: Falling (FW)[2.3 to 6.0]; Walking[0.0 to 2.2]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "20.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full T-shirt (different) & Trouser",
+    "tags": [
+      "floor",
+      "night"
+    ],
+    "split": "independent",
+    "direction": "FW"
+  },
+  "event_time_s": 2.3
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Drinking water from a water bottle while sitting on the bed Putting the water bottle on the bed | classes: Drinking[1.8 to 4.1]; Sitting[0.0 to 12.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "ADL",
+    "file": "17.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full T-shirt (different) & Trousers",
+    "tags": [
+      "bed",
+      "night"
+    ],
+    "split": "independent"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject1",
+  "source_kind": "public_dataset",
+  "scenario": "intentional_lying_down",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Sitting on the bed to sleeping left side on the bed. Face towards the ceiling | classes: Sitting[0.0 to 0.5]; Sleeping[1.0 to 6.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 1,
+    "category": "ADL",
+    "file": "03.mp4",
+    "time_of_recording": "Day (Light On)",
+    "attire": "Full T-shirt & Trousers",
+    "tags": [
+      "bed",
+      "left_side",
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

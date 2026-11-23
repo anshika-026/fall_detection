@@ -1,0 +1,401 @@
+{
+  "summary": {
+    "config": {
+      "fps": 5.0,
+      "hold_last_s": 0.0,
+      "sensitivity": "medium",
+      "overrides": {},
+      "imgsz": 640,
+      "conf": 0.4,
+      "weights": "yolov8n-pose.pt",
+      "confirm_seconds": 3.0
+    },
+    "fall_sequences": 30,
+    "falls_confirmed": 0,
+    "falls_possible_only": 8,
+    "falls_missed": 22,
+    "adl_sequences": 0,
+    "adl_false_confirmed": 0,
+    "adl_false_possible": 0,
+    "minutes": 3.0
+  },
+  "sequences": [
+    {
+      "sequence": "fall-01",
+      "label": "fall",
+      "analysed_frames": 27,
+      "frames_with_person": 22,
+      "duration_s": 5.3,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-02",
+      "label": "fall",
+      "analysed_frames": 19,
+      "frames_with_person": 19,
+      "duration_s": 3.7,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-03",
+      "label": "fall",
+      "analysed_frames": 36,
+      "frames_with_person": 36,
+      "duration_s": 7.2,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 7.0,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-04",
+      "label": "fall",
+      "analysed_frames": 16,
+      "frames_with_person": 13,
+      "duration_s": 3.2,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 1.4,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-05",
+      "label": "fall",
+      "analysed_frames": 26,
+      "frames_with_person": 23,
+      "duration_s": 5.0,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-06",
+      "label": "fall",
+      "analysed_frames": 17,
+      "frames_with_person": 17,
+      "duration_s": 3.3,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-07",
+      "label": "fall",
+      "analysed_frames": 26,
+      "frames_with_person": 26,
+      "duration_s": 5.2,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 3.6,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-08",
+      "label": "fall",
+      "analysed_frames": 16,
+      "frames_with_person": 16,
+      "duration_s": 3.0,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 2.2,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-09",
+      "label": "fall",
+      "analysed_frames": 31,
+      "frames_with_person": 28,
+      "duration_s": 6.2,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 4.8,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-10",
+      "label": "fall",
+      "analysed_frames": 22,
+      "frames_with_person": 20,
+      "duration_s": 4.3,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 2.0,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-11",
+      "label": "fall",
+      "analysed_frames": 22,
+      "frames_with_person": 22,
+      "duration_s": 4.3,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-12",
+      "label": "fall",
+      "analysed_frames": 19,
+      "frames_with_person": 19,
+      "duration_s": 3.7,
+      "events": [
+        "possible"
+      ],
+      "first_possible_s": 2.0,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-13",
+      "label": "fall",
+      "analysed_frames": 15,
+      "frames_with_person": 11,
+      "duration_s": 2.8,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-14",
+      "label": "fall",
+      "analysed_frames": 11,
+      "frames_with_person": 11,
+      "duration_s": 2.0,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-15",
+      "label": "fall",
+      "analysed_frames": 12,
+      "frames_with_person": 12,
+      "duration_s": 2.4,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-16",
+      "label": "fall",
+      "analysed_frames": 10,
+      "frames_with_person": 10,
+      "duration_s": 1.8,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-17",
+      "label": "fall",
+      "analysed_frames": 16,
+      "frames_with_person": 14,
+      "duration_s": 3.2,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-18",
+      "label": "fall",
+      "analysed_frames": 11,
+      "frames_with_person": 8,
+      "duration_s": 2.2,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-19",
+      "label": "fall",
+      "analysed_frames": 17,
+      "frames_with_person": 8,
+      "duration_s": 3.3,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-20",
+      "label": "fall",
+      "analysed_frames": 19,
+      "frames_with_person": 19,
+      "duration_s": 3.7,
+      "events": [
+        "possible",
+        "dismissed"
+      ],
+      "first_possible_s": 1.8,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 1
+    },
+    {
+      "sequence": "fall-21",
+      "label": "fall",
+      "analysed_frames": 10,
+      "frames_with_person": 7,
+      "duration_s": 1.8,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-22",
+      "label": "fall",
+      "analysed_frames": 10,
+      "frames_with_person": 10,
+      "duration_s": 1.9,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-23",
+      "label": "fall",
+      "analysed_frames": 13,
+      "frames_with_person": 12,
+      "duration_s": 2.5,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-24",
+      "label": "fall",
+      "analysed_frames": 10,
+      "frames_with_person": 7,
+      "duration_s": 2.0,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-25",
+      "label": "fall",
+      "analysed_frames": 15,
+      "frames_with_person": 12,
+      "duration_s": 2.8,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-26",
+      "label": "fall",
+      "analysed_frames": 11,
+      "frames_with_person": 10,
+      "duration_s": 2.0,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-27",
+      "label": "fall",
+      "analysed_frames": 16,
+      "frames_with_person": 12,
+      "duration_s": 3.1,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-28",
+      "label": "fall",
+      "analysed_frames": 11,
+      "frames_with_person": 9,
+      "duration_s": 2.2,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-29",
+      "label": "fall",
+      "analysed_frames": 17,
+      "frames_with_person": 14,
+      "duration_s": 3.3,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    },
+    {
+      "sequence": "fall-30",
+      "label": "fall",
+      "analysed_frames": 12,
+      "frames_with_person": 8,
+      "duration_s": 2.3,
+      "events": [],
+      "first_possible_s": null,
+      "first_confirmed_s": null,
+      "confirmed": 0,
+      "possible": 0
+    }
+  ]
+}

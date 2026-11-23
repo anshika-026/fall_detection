@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Picking up a pen from the ground and walking | classes: Standing[0.0 to 6.6]; Walking[6.6 to 10.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "21.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full Shirt & Jeans",
+    "tags": [
+      "night"
+    ],
+    "split": "tuning"
+  }
+}

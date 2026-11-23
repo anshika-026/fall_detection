@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "sitting_standing",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Picking a book from the floor and putting it on the bed; sitting on the bed | classes: Sitting[9.2 to 10.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "ADL",
+    "file": "04.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full T-shirt & Trousers",
+    "tags": [
+      "bed",
+      "floor",
+      "day"
+    ],
+    "split": "independent"
+  }
+}

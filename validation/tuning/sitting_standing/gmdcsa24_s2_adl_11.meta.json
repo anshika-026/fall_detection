@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "sitting_standing",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Removing the shirt and hanging it on the hanger | classes: Standing[0.0 to 4.7]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "11.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full Shirt; T-shirt & Pant",
+    "tags": [
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

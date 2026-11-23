@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject4",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Wiping the face with a handkerchief; putting on the goggles; then reading a book | classes: Reading[11.5 to 14.0]; Sitting[0.7 to 14.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 4,
+    "category": "ADL",
+    "file": "18.mp4",
+    "time_of_recording": "Day (Lights On)",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "day"
+    ],
+    "split": "independent"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject1",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Walking to sitting on the chair (side view) | classes: Sitting[3.0 to 6.0]; Walking[0.0 to 2.5]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 1,
+    "category": "ADL",
+    "file": "13.mp4",
+    "time_of_recording": "Day (Light On)",
+    "attire": "T-shirt & Trousers",
+    "tags": [
+      "from_chair",
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

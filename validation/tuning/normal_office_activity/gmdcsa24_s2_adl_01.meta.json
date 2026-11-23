@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Talking on the mobile phone while sitting on the bed and walking | classes: Sitting[0.0 to 7.0]; Standing[7.3 to 8.1]; Walking[8.1 to 11.0]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "01.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

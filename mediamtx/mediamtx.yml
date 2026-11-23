@@ -1,0 +1,23 @@
+# MediaMTX configuration for the Fall Detection TEST/ingest server (independent of the backend).
+# Everything listens on localhost only. Only the RTSP side is used by the backend; the rest is off.
+logLevel: info
+readTimeout: 10s
+writeTimeout: 10s
+
+api: no
+metrics: no
+pprof: no
+playback: no
+rtmp: no
+hls: no
+webrtc: no
+srt: no
+
+rtsp: yes
+rtspTransports: [tcp]            # publish_rtsp.py and the backend reader both use TCP
+rtspAddress: 127.0.0.1:8554      # = backend INGEST_RTSP_BASE default; change both together
+
+# Any path (cam1, cam2, ...) can be published and read. No credentials: localhost test use only.
+# For anything reachable from a network, add authInternalUsers with passwords first.
+paths:
+  all_others:

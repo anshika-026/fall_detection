@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Exercising (Push-up) and sitting | classes: Exercising[1.9 to 8.3]; Sitting[9.5 to 10.5]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "22.mp4",
+    "time_of_recording": "Night",
+    "attire": "Full Shirt & Jeans",
+    "tags": [
+      "night"
+    ],
+    "split": "tuning"
+  }
+}

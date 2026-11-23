@@ -1,0 +1,13 @@
+{
+  "_note": "Never put a URL (it holds the password) in this file. url_env names an environment variable; db_camera_id reuses a camera already stored in the backend database.",
+  "cameras": [
+    {
+      "id": "office-1",
+      "url_env": "CCTV_URL_OFFICE1"
+    },
+    {
+      "id": "office-2",
+      "db_camera_id": 2
+    }
+  ]
+}

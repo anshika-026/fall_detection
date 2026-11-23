@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject3",
+  "source_kind": "public_dataset",
+  "scenario": "fall_sideways",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Drinking in standing position then falling sideways | classes: Falling (SW)[5.4 to 9.0]; Drinking[0.0 to 1.4]; Standing[0.0 to 4.4]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 3,
+    "category": "Fall",
+    "file": "21.mp4",
+    "time_of_recording": "Day",
+    "attire": "Kurta & Trouser",
+    "tags": [
+      "day"
+    ],
+    "split": "independent",
+    "direction": "SW"
+  },
+  "event_time_s": 5.4
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject4",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Sitting in the chair to standing on the floor; then picking up the water bottle and drinking water from it | classes: Drinking[4.5 to 6.7]; Walking[0.4 to 1.4]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 4,
+    "category": "ADL",
+    "file": "14.mp4",
+    "time_of_recording": "Day (Lights On)",
+    "attire": "Full Shirt & Pant",
+    "tags": [
+      "from_chair",
+      "floor",
+      "day"
+    ],
+    "split": "independent"
+  }
+}

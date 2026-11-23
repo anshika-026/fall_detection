@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "normal_office_activity",
+  "expected_event": "none",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Standing up from a sitting position on the bed and then sitting on the ground, Sitting[0 to 0.5; 3.7 to 10] | classes: Standing[0.5 to 1.3]; Walking[0.5 to 3.1]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "ADL",
+    "file": "09.mp4",
+    "time_of_recording": "Day",
+    "attire": "Full Shirt & Paint",
+    "tags": [
+      "bed",
+      "day"
+    ],
+    "split": "tuning"
+  }
+}

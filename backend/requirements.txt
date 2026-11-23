@@ -1,0 +1,33 @@
+# Fall Detection backend: runtime dependencies (Python 3.12).
+# Versions are the ones the test suite and the benchmarks in docs/ were run with.
+#
+# These are the same versions SMC pins (or newer patch levels of them), so this
+# module can share a Python environment with SMC. It does NOT need SMC's face,
+# Re-ID, expression or licensing packages (insightface, torchreid, transformers,
+# scikit-learn, tensorflow, PyJWT ...) and does not use supervision: ByteTrack comes
+# from ultralytics' built-in bytetrack.yaml tracker (which needs `lap`).
+#
+# PyTorch: install the build for your hardware FIRST.
+#   CPU only:   pip install --index-url https://download.pytorch.org/whl/cpu torch==2.14.0 torchvision==0.29.0
+#   NVIDIA GPU: install the matching CUDA wheels from https://pytorch.org, then set POSE_DEVICE=0
+
+# --- Web / API
+fastapi==0.141.1
+starlette>=1.3.1
+uvicorn[standard]==0.53.0
+pydantic==2.13.5
+httpx==0.28.1               # alert webhook
+
+# --- Imaging / numerics
+numpy==2.5.3
+opencv-python==5.0.0.93
+av==18.1.0                  # H.264 incident clips
+
+# --- Pose model + tracking
+torch==2.14.0
+torchvision==0.29.0
+ultralytics==8.4.151        # yolov8n-pose + built-in ByteTrack (AGPL-3.0: see docs/DEPENDENCIES.md)
+lap==0.5.13                 # required by ultralytics' ByteTrack
+
+# --- Ops
+psutil==7.2.2

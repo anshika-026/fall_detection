@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "camera_id": "gmdcsa24-subject2",
+  "source_kind": "public_dataset",
+  "scenario": "fall_sideways",
+  "expected_event": "fall",
+  "event_time_tolerance_s": 2.0,
+  "annotator": "GMDCSA-24 dataset authors (their CSV; not the detector)",
+  "notes": "Right side fall on the ground | classes: Falling (SW)[1.4 to 6.0]; Standing[0.4 to 1.2]",
+  "dataset": {
+    "name": "GMDCSA-24",
+    "subject": 2,
+    "category": "Fall",
+    "file": "01.mp4",
+    "time_of_recording": "Day",
+    "attire": "T-Shirt & Pants",
+    "tags": [
+      "right_side",
+      "day"
+    ],
+    "split": "tuning",
+    "direction": "SW"
+  },
+  "event_time_s": 1.4
+}
